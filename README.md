@@ -51,7 +51,7 @@ Para visualizar diagramas usando PlantUML, siga os passos abaixo:
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/linter-action.git
+    git clone https://github.com/V-Ctr/desafiobancosantander-master/linter-action.git
     cd linter-action
     ```
 
