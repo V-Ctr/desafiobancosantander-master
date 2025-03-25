@@ -26,6 +26,27 @@ Este projeto reflete na utilização do GitHub Action para executar um linter em
 8. **Deploy to GitHub Pages**: Faz o deploy para o GitHub Pages.
 9. **Notify on failure**: Notifica em caso de falha.
 
+## Desenho do Diagrama
+
+Para visualizar diagramas usando PlantUML, siga os passos abaixo:
+
+1. **Instale o PlantUML**:
+    - Você pode instalar o PlantUML como uma extensão no VS Code. Vá para a aba de extensões e procure por "PlantUML".
+
+2. **Instale o Graphviz**:
+    - O PlantUML depende do Graphviz para gerar diagramas. Baixe e instale o Graphviz a partir do [site oficial](https://graphviz.gitlab.io/download/).
+
+3. **Crie um arquivo de diagrama**:
+    - Crie um arquivo com a extensão `.puml` ou `.plantuml` e adicione o código do diagrama. Por exemplo:
+    ```plantuml
+    @startuml
+    Alice -> Bob: Teste
+    @enduml
+    ```
+
+4. **Visualize o diagrama**:
+    - Abra o arquivo `.puml` no VS Code e use o atalho `Alt + D` para visualizar o diagrama.
+
 ## Configuração Inicial
 
 1. Clone o repositório:
