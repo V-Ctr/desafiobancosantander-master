@@ -1,0 +1,9 @@
+name: 'Linter Action'
+description: 'A GitHub Action to run a linter'
+inputs:
+  github_token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
