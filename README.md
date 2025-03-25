@@ -67,7 +67,7 @@ Para visualizar diagramas usando PlantUML, siga os passos abaixo:
 
 ## Uso
 
-Para usar esta GitHub Action, adicione o seguinte ao seu workflow:
+Para usar esta GitHub Action (local) adicione o seguinte ao seu workflow:
 
 ```yml
 name: Lint Code
