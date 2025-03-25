@@ -1,3 +1,6 @@
+# Linter Action
+
+Este projeto reflete na utilização do GitHub Action para executar um linter em um repositório. Ele inclui um pipeline de CI/CD para garantir a qualidade do código e a entrega contínua.
 
 ## Pipeline de CI/CD
 
@@ -69,3 +72,18 @@ jobs:
         uses: ./ # Usa a ação do repositório atual
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+## Boas Práticas  
+
+Commits frequentes: Faça commits frequentes para manter o histórico de mudanças claro.
+Testes automatizados: Sempre escreva testes para seu código e execute-os no pipeline de CI.
+Revisões de código: Realize revisões de código para garantir a qualidade e a consistência.
+Documentação: Mantenha a documentação atualizada para facilitar o entendimento do projeto.
+Gerenciamento de dependências: Mantenha as dependências atualizadas e remova as que não são mais necessárias.
+
+# Contribuição
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (git checkout -b feature/nova-feature).
+3. Commit suas mudanças (git commit -am 'Adiciona nova feature').
+4. Faça o push para a branch (git push origin feature/nova-feature).
+5. Abra um Pull Request.
