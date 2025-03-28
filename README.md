@@ -1,4 +1,4 @@
-# Linter Action
+# Desafio Banco Santander (Linter Action)
 
 Este projeto reflete na utilização do GitHub Action para executar um linter em um repositório. Ele inclui um pipeline de CI/CD para garantir a qualidade do código e a entrega contínua.
 
@@ -67,7 +67,7 @@ Para visualizar diagramas usando PlantUML, siga os passos abaixo:
 
 ## Uso
 
-Para usar esta GitHub Action, adicione o seguinte ao seu workflow:
+Para usar esta GitHub Action (local) adicione o seguinte ao seu workflow:
 
 ```yml
 name: Lint Code
