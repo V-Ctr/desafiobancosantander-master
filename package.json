@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "linter-action",
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -8,10 +9,13 @@
   },
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^4.0.0",
-    "@octokit/rest": "^21.1.1"
+    "@actions/github": "^6.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "^13.5.0",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
+    "@types/node": "^22.13.14",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",

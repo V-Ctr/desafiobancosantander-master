@@ -11,7 +11,7 @@ async function deleteReaction(reactionId: number) {
     await octokit.reactions.deleteForIssue({
       owner: github.context.repo.owner,
       repo: github.context.repo.repo,
-      issue_number: github.context.issue.number,
+      issue_number: 1, // Substitua pelo número correto
       reaction_id: reactionId,
     });
 
@@ -37,8 +37,7 @@ async function run() {
       }
       core.info(`Linting output: ${stdout}`);
 
-      // Exemplo de uso da função deleteReaction
-      deleteReaction(1); // Substitua pelo ID da reação que você deseja deletar
+      deleteReaction(1); // Substitua pelo ID correto
     });
   } catch (error) {
     if (error instanceof Error) {
